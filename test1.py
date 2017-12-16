@@ -8,3 +8,9 @@ elif text == "aaradhya":
 else:
     print("we don't know him")
 print("basavaraj lamani added in master branch")
+
+number = int(input("enter the number:"))
+if number < 35:
+    print("failed")
+elif number >= 35 and number<= 100:
+    print("passed")
