@@ -7,3 +7,9 @@ elif text == "aaradhya":
     print("she is basu's daughter")
 else:
     print("we don't know him")
+
+number = int(input("enter the number:"))
+if number < 35:
+    print("failed")
+elif number >= 35 and number<= 100:
+    print("passed")
